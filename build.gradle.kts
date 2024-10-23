@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 private val _group = "io.github.shiniseong"
-private val _version = "1.0.1.2-SNAPSHOT"
+private val _version = "1.0.1.4-SNAPSHOT"
 private val _name = "kotlin-util-libs"
 
 plugins {
@@ -35,7 +35,7 @@ kotlin {
 }
 
 android {
-    namespace = "io.github.shiniseong.willofember.shared.application"
+    namespace = "io.github.shiniseong.kotlin.util.libs"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
