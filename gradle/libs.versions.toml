@@ -1,0 +1,18 @@
+[versions]
+# === ANDROID ===
+agp = "8.5.2"
+android-compileSdk = "34"
+android-minSdk = "24"
+
+# === KOTLIN ===
+kotlin = "2.0.20"
+
+[libraries]
+# === TEST ===
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin" }
+
+[plugins]
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+
+

@@ -1,5 +1,8 @@
 package io.github.shiniseong.kotlin.util.libs.enums
 
+import io.github.shiniseong.kotlin.util.libs.ValuedEnumClass
+import io.github.shiniseong.kotlin.util.libs.ValuedEnumCompanion
+
 enum class TestIntValueEnum(override val value: Int) : ValuedEnumClass<Int> {
     T1(1),
     T2(2),

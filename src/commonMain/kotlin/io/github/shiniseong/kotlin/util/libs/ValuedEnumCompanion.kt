@@ -1,4 +1,4 @@
-package io.github.shiniseong.kotlin.util.libs.enums
+package io.github.shiniseong.kotlin.util.libs
 
 import io.github.shiniseong.kotlin.util.libs.enums.exception.NoSuchEnumValueException
 import kotlin.enums.EnumEntries
