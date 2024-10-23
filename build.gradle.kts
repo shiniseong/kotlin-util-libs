@@ -2,13 +2,13 @@ import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 private val _group = "io.github.shiniseong"
-private val _version = "1.0.1.7-SNAPSHOT"
+private val _version = "1.1.0"
 private val _name = "kotlin-util-libs"
 
 plugins {
     alias(libs.plugins.kotlinMultiplatform)
     alias(libs.plugins.androidLibrary)
-    id("maven-publish")
+    `maven-publish`
 }
 
 kotlin {
