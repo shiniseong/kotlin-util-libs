@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.ExperimentalKotlinGradlePluginApi
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 private val _group = "io.github.shiniseong"
-private val _version = "1.0.1.5-SNAPSHOT"
+private val _version = "1.0.1.6-SNAPSHOT"
 private val _name = "kotlin-util-libs"
 
 plugins {
