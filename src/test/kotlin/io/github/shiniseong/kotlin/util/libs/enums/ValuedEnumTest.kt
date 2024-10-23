@@ -41,4 +41,5 @@ class ValuedEnumTest {
     fun `V toValuedEnum(companion C) 확장 함수 테스트 - Int`() {
         assertEquals(1.toValuedEnum(TestIntValueEnum.Companion), TestIntValueEnum.T1)
     }
+
 }
